@@ -3,9 +3,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Coverage for /home/runner/work/tket/tket/pytket/pytket/utils/operators.py: 92%</title>
-    <link rel="icon" sizes="32x32" href="favicon_32.png">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="coverage_html.js" defer></script>
+    <link rel="icon" sizes="32x32" href="favicon_32_cb_58284776.png">
+    <link rel="stylesheet" href="style_cb_8e611ae1.css" type="text/css">
+    <script src="coverage_html_cb_da166b87.js" defer></script>
 </head>
 <body class="pyfile">
 <header>
@@ -17,7 +17,7 @@
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
             <label for="help_panel_state">
-                <img id="keyboard_icon" src="keybd_closed.png" alt="Show/hide keyboard shortcuts">
+                <img id="keyboard_icon" src="keybd_closed_cb_ce680311.png" alt="Show/hide keyboard shortcuts">
             </label>
             <div id="help_panel">
                 <p class="legend">Shortcuts on this page</p>
@@ -66,8 +66,8 @@
             <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="z_6d3d068c692f6e93_outcomearray_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.5.0">coverage.py v7.5.0</a>,
-            created at 2024-05-03 13:24 +0000
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.5.1">coverage.py v7.5.1</a>,
+            created at 2024-05-07 11:01 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"></button>
@@ -187,7 +187,7 @@
     <p class="run"><span class="n"><a id="t103" href="#t103">103</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">_collect_qubits</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t104" href="#t104">104</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t105" href="#t105">105</a></span><span class="t">    <span class="key">def</span> <span class="nam">__eq__</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">other</span><span class="op">:</span> <span class="nam">object</span><span class="op">)</span> <span class="op">-></span> <span class="nam">bool</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="par run show_par"><span class="n"><a id="t106" href="#t106">106</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">other</span><span class="op">,</span> <span class="nam">QubitPauliOperator</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">106&#x202F;&#x219B;&#x202F;108</span><span class="annotate long">line 106 didn't jump to line 108, because the condition on line 106 was never false</span></span></p>
+    <p class="par run show_par"><span class="n"><a id="t106" href="#t106">106</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">other</span><span class="op">,</span> <span class="nam">QubitPauliOperator</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">106&#x202F;&#x219B;&#x202F;108</span><span class="annotate long">line 106 didn't jump to line 108, because the condition on line 106 was always true</span></span></p>
     <p class="run"><span class="n"><a id="t107" href="#t107">107</a></span><span class="t">            <span class="key">return</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_dict</span> <span class="op">==</span> <span class="nam">other</span><span class="op">.</span><span class="nam">_dict</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t108" href="#t108">108</a></span><span class="t">        <span class="key">return</span> <span class="key">False</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t109" href="#t109">109</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -199,7 +199,7 @@
     <p class="pln"><span class="n"><a id="t115" href="#t115">115</a></span><span class="t"><span class="str">        :return: Updated operator (self)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t116" href="#t116">116</a></span><span class="t"><span class="str">        :rtype: QubitPauliOperator</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t117" href="#t117">117</a></span><span class="t"><span class="str">        """</span>&nbsp;</span><span class="r"></span></p>
-    <p class="par run show_par"><span class="n"><a id="t118" href="#t118">118</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">addend</span><span class="op">,</span> <span class="nam">QubitPauliOperator</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">118&#x202F;&#x219B;&#x202F;123</span><span class="annotate long">line 118 didn't jump to line 123, because the condition on line 118 was never false</span></span></p>
+    <p class="par run show_par"><span class="n"><a id="t118" href="#t118">118</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">addend</span><span class="op">,</span> <span class="nam">QubitPauliOperator</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">118&#x202F;&#x219B;&#x202F;123</span><span class="annotate long">line 118 didn't jump to line 123, because the condition on line 118 was always true</span></span></p>
     <p class="run"><span class="n"><a id="t119" href="#t119">119</a></span><span class="t">            <span class="key">for</span> <span class="nam">key</span><span class="op">,</span> <span class="nam">value</span> <span class="key">in</span> <span class="nam">addend</span><span class="op">.</span><span class="nam">_dict</span><span class="op">.</span><span class="nam">items</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t120" href="#t120">120</a></span><span class="t">                <span class="nam">self</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">get</span><span class="op">(</span><span class="nam">key</span><span class="op">,</span> <span class="num">0.0</span><span class="op">)</span> <span class="op">+</span> <span class="nam">value</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t121" href="#t121">121</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">_all_qubits</span><span class="op">.</span><span class="nam">update</span><span class="op">(</span><span class="nam">addend</span><span class="op">.</span><span class="nam">_all_qubits</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
@@ -250,7 +250,7 @@
     <p class="run"><span class="n"><a id="t166" href="#t166">166</a></span><span class="t">            <span class="key">return</span> <span class="nam">self</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t167" href="#t167">167</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t168" href="#t168">168</a></span><span class="t">        <span class="com"># Handle scalars.</span>&nbsp;</span><span class="r"></span></p>
-    <p class="par run show_par"><span class="n"><a id="t169" href="#t169">169</a></span><span class="t">        <span class="key">elif</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">multiplier</span><span class="op">,</span> <span class="op">(</span><span class="nam">float</span><span class="op">,</span> <span class="nam">Expr</span><span class="op">)</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">169&#x202F;&#x219B;&#x202F;176</span><span class="annotate long">line 169 didn't jump to line 176, because the condition on line 169 was never false</span></span></p>
+    <p class="par run show_par"><span class="n"><a id="t169" href="#t169">169</a></span><span class="t">        <span class="key">elif</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">multiplier</span><span class="op">,</span> <span class="op">(</span><span class="nam">float</span><span class="op">,</span> <span class="nam">Expr</span><span class="op">)</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">169&#x202F;&#x219B;&#x202F;176</span><span class="annotate long">line 169 didn't jump to line 176, because the condition on line 169 was always true</span></span></p>
     <p class="run"><span class="n"><a id="t170" href="#t170">170</a></span><span class="t">            <span class="key">for</span> <span class="nam">key</span> <span class="key">in</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_dict</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t171" href="#t171">171</a></span><span class="t">                <span class="nam">self</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span> <span class="op">*=</span> <span class="nam">multiplier</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t172" href="#t172">172</a></span><span class="t">            <span class="key">return</span> <span class="nam">self</span>&nbsp;</span><span class="r"></span></p>
@@ -471,7 +471,7 @@
     <p class="run"><span class="n"><a id="t387" href="#t387">387</a></span><span class="t">                    <span class="nam">to_delete</span><span class="op">.</span><span class="nam">append</span><span class="op">(</span><span class="nam">key</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t388" href="#t388">388</a></span><span class="t">                <span class="key">else</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t389" href="#t389">389</a></span><span class="t">                    <span class="nam">self</span><span class="op">.</span><span class="nam">_dict</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span> <span class="op">=</span> <span class="nam">im</span><span class="op">(</span><span class="nam">value</span><span class="op">)</span> <span class="op">*</span> <span class="num">1j</span>&nbsp;</span><span class="r"></span></p>
-    <p class="par run show_par"><span class="n"><a id="t390" href="#t390">390</a></span><span class="t">            <span class="key">elif</span> <span class="nam">abs</span><span class="op">(</span><span class="nam">im</span><span class="op">(</span><span class="nam">placeholder</span><span class="op">)</span><span class="op">)</span> <span class="op">&lt;=</span> <span class="nam">abs_tol</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">390&#x202F;&#x219B;&#x202F;383</span><span class="annotate long">line 390 didn't jump to line 383, because the condition on line 390 was never false</span></span></p>
+    <p class="par run show_par"><span class="n"><a id="t390" href="#t390">390</a></span><span class="t">            <span class="key">elif</span> <span class="nam">abs</span><span class="op">(</span><span class="nam">im</span><span class="op">(</span><span class="nam">placeholder</span><span class="op">)</span><span class="op">)</span> <span class="op">&lt;=</span> <span class="nam">abs_tol</span><span class="op">:</span>&nbsp;</span><span class="r"><span class="annotate short">390&#x202F;&#x219B;&#x202F;383</span><span class="annotate long">line 390 didn't jump to line 383, because the condition on line 390 was always true</span></span></p>
     <p class="run"><span class="n"><a id="t391" href="#t391">391</a></span><span class="t">                <span class="nam">self</span><span class="op">.</span><span class="nam">_dict</span><span class="op">[</span><span class="nam">key</span><span class="op">]</span> <span class="op">=</span> <span class="nam">re</span><span class="op">(</span><span class="nam">value</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t392" href="#t392">392</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t393" href="#t393">393</a></span><span class="t">        <span class="key">for</span> <span class="nam">key</span> <span class="key">in</span> <span class="nam">to_delete</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -490,8 +490,8 @@
             <a class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
             <a class="nav" href="z_6d3d068c692f6e93_outcomearray_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
-            <a class="nav" href="https://coverage.readthedocs.io/en/7.5.0">coverage.py v7.5.0</a>,
-            created at 2024-05-03 13:24 +0000
+            <a class="nav" href="https://coverage.readthedocs.io/en/7.5.1">coverage.py v7.5.1</a>,
+            created at 2024-05-07 11:01 +0000
         </p>
     </div>
 </footer>
