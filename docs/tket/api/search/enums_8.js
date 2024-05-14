@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['recursionnodetype_5187',['RecursionNodeType',['../namespacetket.html#a75732ecf6e963fb7b73ca798e8d12671',1,'tket']]],
-  ['reversetype_5188',['ReverseType',['../namespacetket.html#a0f814e0f8e98465926bde71420d68cf6',1,'tket']]]
+  ['quantumtype_5230',['QuantumType',['../namespacetket_1_1zx.html#ae5c1261d41bb456a2457d06f3c52b9ff',1,'tket::zx']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['opgrouptransfer_5180',['OpGroupTransfer',['../classtket_1_1Circuit.html#a8c16bfe4c55bd9f2d3565c0dd9377931',1,'tket::Circuit']]],
-  ['optype_5181',['OpType',['../namespacetket.html#a13e81344da4794f2648eb9a7b286fcf3',1,'tket']]]
+  ['localcliffordtype_5223',['LocalCliffordType',['../namespacetket_1_1Transforms_1_1GreedyPauliSimp.html#aadc8dc8efb76ea909cb9d142bf5e8384',1,'tket::Transforms::GreedyPauliSimp']]]
 ];

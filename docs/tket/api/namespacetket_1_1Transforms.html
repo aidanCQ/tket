@@ -88,6 +88,8 @@ $(function() {
 Namespaces</h2></td></tr>
 <tr class="memitem:namespacetket_1_1Transforms_1_1DelayMeasures"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1Transforms_1_1DelayMeasures.html">DelayMeasures</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacetket_1_1Transforms_1_1GreedyPauliSimp"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1Transforms_1_1GreedyPauliSimp.html">GreedyPauliSimp</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -280,6 +282,8 @@ Functions</h2></td></tr>
 <tr class="separator:a6e2baa7e0e771b7c012c0bda1c921965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad77803001c3ed2fa876774decf8244aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1Transforms.html#ad77803001c3ed2fa876774decf8244aa">cnx_pairwise_decomposition</a> ()</td></tr>
 <tr class="separator:ad77803001c3ed2fa876774decf8244aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12bef3ba4b655d6945521334d1a1cf13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1Transforms.html#a12bef3ba4b655d6945521334d1a1cf13">greedy_pauli_optimisation</a> (double discount_rate, double depth_weight)</td></tr>
+<tr class="separator:a12bef3ba4b655d6945521334d1a1cf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77325b57808ff791e8be3ffe9811e153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Transform.html">Transform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1Transforms.html#a77325b57808ff791e8be3ffe9811e153">delay_measures</a> (bool allow_partial=false)</td></tr>
 <tr class="memdesc:a77325b57808ff791e8be3ffe9811e153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commute all measurement gates to the end of the circuit.  <a href="namespacetket_1_1Transforms.html#a77325b57808ff791e8be3ffe9811e153">More...</a><br /></td></tr>
 <tr class="separator:a77325b57808ff791e8be3ffe9811e153"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1604,6 +1608,36 @@ template&lt;typename T &gt; </div>
 <p>It is not recommended to use this pass with symbolic expressions, as in certain cases a blow-up in symbolic expression sizes may occur. </p>
 
 <p class="definition">Definition at line <a class="el" href="Decomposition_8cpp_source.html#l01592">1592</a> of file <a class="el" href="Decomposition_8cpp_source.html">Decomposition.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a12bef3ba4b655d6945521334d1a1cf13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12bef3ba4b655d6945521334d1a1cf13">&#9670;&nbsp;</a></span>greedy_pauli_optimisation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtket_1_1Transform.html">Transform</a> tket::Transforms::greedy_pauli_optimisation </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>discount_rate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>depth_weight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="GreedyPauliOptimisation_8cpp_source.html#l00934">934</a> of file <a class="el" href="GreedyPauliOptimisation_8cpp_source.html">GreedyPauliOptimisation.cpp</a>.</p>
 
 </div>
 </div>

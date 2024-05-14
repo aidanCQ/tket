@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['tableausegment_5191',['TableauSegment',['../classtket_1_1ChoiMixTableau.html#a4b7e94f491c095670df54eb2557257ab',1,'tket::ChoiMixTableau']]],
-  ['toffoliboxsynthstrat_5192',['ToffoliBoxSynthStrat',['../namespacetket.html#aaa9022e831653e0daea704d481725e3b',1,'tket']]]
+  ['safetymode_5233',['SafetyMode',['../namespacetket.html#ab65820ebbcb1ceb848e855a832420396',1,'tket']]],
+  ['steinernodetype_5234',['SteinerNodeType',['../namespacetket_1_1aas.html#a5d7e42ff2fcc3a26d82ea3d4dd415374',1,'tket::aas']]],
+  ['supporttype_5235',['SupportType',['../namespacetket_1_1Transforms_1_1GreedyPauliSimp.html#a0844422d415c041a34f94a4e49cecc8c',1,'tket::Transforms::GreedyPauliSimp']]]
 ];

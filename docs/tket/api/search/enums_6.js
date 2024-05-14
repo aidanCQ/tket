@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['pauli_5182',['Pauli',['../namespacetket.html#a342a289d54f4f5f5a405373c07aca66a',1,'tket']]],
-  ['paulipartitionstrat_5183',['PauliPartitionStrat',['../namespacetket.html#a2d578ba7a7267e8172ac6a302fab7f67',1,'tket']]],
-  ['paulisynthstrat_5184',['PauliSynthStrat',['../namespacetket_1_1Transforms.html#af9aeecd429f293a2082ec31a14284028',1,'tket::Transforms']]],
-  ['porttype_5185',['PortType',['../namespacetket.html#a8e33f26891628ded8365c5855a6e832d',1,'tket']]]
+  ['opgrouptransfer_5224',['OpGroupTransfer',['../classtket_1_1Circuit.html#a8c16bfe4c55bd9f2d3565c0dd9377931',1,'tket::Circuit']]],
+  ['optype_5225',['OpType',['../namespacetket.html#a13e81344da4794f2648eb9a7b286fcf3',1,'tket']]]
 ];

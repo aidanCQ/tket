@@ -1,6 +1,7 @@
 <map id="include/tket/Transformations/CliffordOptimisation.hpp" name="include/tket/Transformations/CliffordOptimisation.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="263,5,470,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="375,5,582,47"/>
 <area shape="rect" id="node2" href="$PassGenerators_8cpp.html" title=" " alt="" coords="5,102,251,129"/>
 <area shape="rect" id="node3" href="$CliffordOptimisation_8cpp.html" title=" " alt="" coords="275,95,459,136"/>
-<area shape="rect" id="node4" href="$OptimisationPass_8cpp.html" title=" " alt="" coords="483,95,650,136"/>
+<area shape="rect" id="node4" href="$GreedyPauliOptimisation_8cpp.html" title=" " alt="" coords="483,95,698,136"/>
+<area shape="rect" id="node5" href="$OptimisationPass_8cpp.html" title=" " alt="" coords="722,95,889,136"/>
 </map>
