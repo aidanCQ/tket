@@ -1,4 +1,4 @@
-lines: 89.1% (28569 out of 32064)
-functions: 79.7% (2693 out of 3377)
-branches: 51.8% (36234 out of 69894)
+lines: 89.1% (28638 out of 32144)
+functions: 79.8% (2703 out of 3388)
+branches: 51.8% (36405 out of 70248)
 calls: 0.0% (0 out of 0)
