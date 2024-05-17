@@ -33,15 +33,9 @@ cp ${PROFILE_PATH} ${DEFAULT_PROFILE_PATH}
 ${CONAN_CMD} remote add tket-libs https://quantinuumsw.jfrog.io/artifactory/api/conan/tket1-libs --index 0
 
 # Edit this list as required:
-PACKAGES="boost/1.85.0@ \
-          catch2/3.6.0@ \
-          gmp/6.3.0@ \
-          symengine/0.11.2@ \
-          tklog/0.3.3@tket/stable \
-          tkassert/0.3.4@tket/stable \
-          tkrng/0.3.3@tket/stable \
-          tktokenswap/0.3.7@tket/stable \
-          tkwsm/0.3.7@tket/stable"
+PACKAGES="rapidcheck/cci.20230815@ \
+          tktokenswap/0.3.8@tket/stable \
+          tkwsm/0.3.8@tket/stable"
 
 for PACKAGE in ${PACKAGES}
 do
