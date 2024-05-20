@@ -27,7 +27,7 @@
     </tr>
     <tr>
       <th scope="row">Date:</th>
-      <td>2024-05-17 14:34:31</td>
+      <td>2024-05-20 10:23:30</td>
     </tr>
     <tr>
       <th scrope="row">Warnings:</th>
@@ -57,9 +57,9 @@
     </tr>
     <tr>
       <th scope="row">Branches:</th>
-      <td>44</td>
-      <td>74</td>
-      <td class="coverage-low">59.5%</td>
+      <td>52</td>
+      <td>90</td>
+      <td class="coverage-low">57.8%</td>
     </tr>
     <tr>
       <th scope="row">Decisions:</th>
@@ -275,7 +275,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tket/Mapping/RoutingMethodJson.hpp&quot;</span><span class="cp"></span></td>
+      <td class="src "><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tket/Mapping/RoutingMethodJson.hpp&quot;</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l16" href="#l16">16</a></td>
@@ -293,7 +293,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tket/Mapping/LexiLabelling.hpp&quot;</span><span class="cp"></span></td>
+      <td class="src "><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;tket/Mapping/LexiLabelling.hpp&quot;</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l18" href="#l18">18</a></td>
@@ -311,7 +311,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="k">namespace</span><span class="w"> </span><span class="nn">tket</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src "><span class="k">namespace</span><span class="w"> </span><span class="nn">tket</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l20" href="#l20">20</a></td>
@@ -325,11 +325,18 @@
     <tr class="source-line">
       <td class="lineno"><a id="l21" href="#l21">21</a></td>
       <td class="linebranch">
+        <details class="linebranchDetails">
+        <summary class="linebranchSummary">1/2</summary>
+        <div class="linebranchContents">
+          <div class="takenBranch">&check; Branch 1 taken 94 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+        </div>
+        </details>
       </td>
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">94</td>
-      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">to_json</span><span class="p">(</span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">RoutingMethod</span><span class="o">&amp;</span><span class="w"> </span><span class="n">rm</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rm</span><span class="p">.</span><span class="n">serialize</span><span class="p">();</span><span class="w"> </span><span class="p">}</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">to_json</span><span class="p">(</span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">RoutingMethod</span><span class="o">&amp;</span><span class="w"> </span><span class="n">rm</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rm</span><span class="p">.</span><span class="n">serialize</span><span class="p">();</span><span class="w"> </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l22" href="#l22">22</a></td>
@@ -347,7 +354,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">from_json</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="cm">/*j*/</span><span class="p">,</span><span class="w"> </span><span class="n">RoutingMethod</span><span class="o">&amp;</span><span class="w"> </span><span class="n">rm</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">from_json</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="cm">/*j*/</span><span class="p">,</span><span class="w"> </span><span class="n">RoutingMethod</span><span class="o">&amp;</span><span class="w"> </span><span class="n">rm</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l24" href="#l24">24</a></td>
@@ -356,7 +363,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="w">  </span><span class="n">rm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">RoutingMethod</span><span class="p">();</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">  </span><span class="n">rm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">RoutingMethod</span><span class="p">();</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l25" href="#l25">25</a></td>
@@ -365,7 +372,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="p">}</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l26" href="#l26">26</a></td>
@@ -383,7 +390,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">47</td>
-      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">to_json</span><span class="p">(</span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">RoutingMethodPtr</span><span class="o">&gt;&amp;</span><span class="w"> </span><span class="n">rmp_v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">to_json</span><span class="p">(</span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">RoutingMethodPtr</span><span class="o">&gt;&amp;</span><span class="w"> </span><span class="n">rmp_v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l28" href="#l28">28</a></td>
@@ -406,7 +413,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">138</td>
-      <td class="src coveredLine"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="o">&amp;</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">rmp_v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="o">&amp;</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">rmp_v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l29" href="#l29">29</a></td>
@@ -424,7 +431,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">91</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="n">j</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">);</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="n">j</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="o">*</span><span class="n">r</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l30" href="#l30">30</a></td>
@@ -433,7 +440,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="w">  </span><span class="p">}</span><span class="w"></span></td>
+      <td class="src "><span class="w">  </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l31" href="#l31">31</a></td>
@@ -442,7 +449,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">47</td>
-      <td class="src coveredLine"><span class="p">}</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l32" href="#l32">32</a></td>
@@ -460,7 +467,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">8</td>
-      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">from_json</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">RoutingMethodPtr</span><span class="o">&gt;&amp;</span><span class="w"> </span><span class="n">rmp_v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="kt">void</span><span class="w"> </span><span class="nf">from_json</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">nlohmann</span><span class="o">::</span><span class="n">json</span><span class="o">&amp;</span><span class="w"> </span><span class="n">j</span><span class="p">,</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">RoutingMethodPtr</span><span class="o">&gt;&amp;</span><span class="w"> </span><span class="n">rmp_v</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l34" href="#l34">34</a></td>
@@ -487,8 +494,8 @@
           </div>
         </details>
       </td>
-      <td class="linecount coveredLine">25</td>
-      <td class="src coveredLine"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="o">&amp;</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">j</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="linecount coveredLine">42</td>
+      <td class="src coveredLine"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="o">&amp;</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">j</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l35" href="#l35">35</a></td>
@@ -506,16 +513,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">17</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">c</span><span class="p">.</span><span class="n">at</span><span class="p">(</span><span class="s">&quot;name&quot;</span><span class="p">).</span><span class="n">get</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span><span class="p">();</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">c</span><span class="p">.</span><span class="n">at</span><span class="p">(</span><span class="s">&quot;name&quot;</span><span class="p">).</span><span class="n">get</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span><span class="p">();</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l36" href="#l36">36</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">2/2</summary>
+        <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 1 times.</div>
-          <div class="takenBranch">&check; Branch 2 taken 16 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 17 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 1 times.</div>
+          <div class="takenBranch">&check; Branch 4 taken 16 times.</div>
         </div>
         </details>
       </td>
@@ -529,7 +538,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">17</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;LexiLabellingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;LexiLabellingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l37" href="#l37">37</a></td>
@@ -547,7 +556,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">LexiLabellingMethod</span><span class="o">&gt;</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">LexiLabellingMethod</span><span class="o">&gt;</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l38" href="#l38">38</a></td>
@@ -563,16 +572,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">2</td>
-      <td class="src coveredLine"><span class="w">          </span><span class="n">LexiLabellingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">          </span><span class="n">LexiLabellingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l39" href="#l39">39</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">2/2</summary>
+        <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 8 times.</div>
-          <div class="takenBranch">&check; Branch 2 taken 8 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 16 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 8 times.</div>
+          <div class="takenBranch">&check; Branch 4 taken 8 times.</div>
         </div>
         </details>
       </td>
@@ -586,7 +597,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">16</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;LexiRouteRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;LexiRouteRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l40" href="#l40">40</a></td>
@@ -604,7 +615,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">8</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">LexiRouteRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">LexiRouteRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l41" href="#l41">41</a></td>
@@ -620,16 +631,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">16</td>
-      <td class="src coveredLine"><span class="w">          </span><span class="n">LexiRouteRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">          </span><span class="n">LexiRouteRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l42" href="#l42">42</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">2/2</summary>
+        <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 1 times.</div>
-          <div class="takenBranch">&check; Branch 2 taken 7 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 8 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 1 times.</div>
+          <div class="takenBranch">&check; Branch 4 taken 7 times.</div>
         </div>
         </details>
       </td>
@@ -643,7 +656,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">8</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;RoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;RoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l43" href="#l43">43</a></td>
@@ -661,16 +674,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">RoutingMethod</span><span class="o">&gt;</span><span class="p">());</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">RoutingMethod</span><span class="o">&gt;</span><span class="p">());</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l44" href="#l44">44</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">2/2</summary>
+        <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 1 times.</div>
-          <div class="takenBranch">&check; Branch 2 taken 6 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 7 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 1 times.</div>
+          <div class="takenBranch">&check; Branch 4 taken 6 times.</div>
         </div>
         </details>
       </td>
@@ -684,7 +699,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">7</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;AASRouteRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;AASRouteRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l45" href="#l45">45</a></td>
@@ -702,7 +717,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">AASRouteRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">AASRouteRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l46" href="#l46">46</a></td>
@@ -718,16 +733,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">2</td>
-      <td class="src coveredLine"><span class="w">          </span><span class="n">AASRouteRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">          </span><span class="n">AASRouteRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l47" href="#l47">47</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">2/2</summary>
+        <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 1 times.</div>
-          <div class="takenBranch">&check; Branch 2 taken 5 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 6 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 1 times.</div>
+          <div class="takenBranch">&check; Branch 4 taken 5 times.</div>
         </div>
         </details>
       </td>
@@ -741,7 +758,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">6</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;AASLabellingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;AASLabellingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l48" href="#l48">48</a></td>
@@ -759,7 +776,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">1</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">AASLabellingMethod</span><span class="o">&gt;</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">AASLabellingMethod</span><span class="o">&gt;</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l49" href="#l49">49</a></td>
@@ -775,16 +792,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">2</td>
-      <td class="src coveredLine"><span class="w">          </span><span class="n">AASLabellingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">          </span><span class="n">AASLabellingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l50" href="#l50">50</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">2/2</summary>
+        <summary class="linebranchSummary">3/4</summary>
         <div class="linebranchContents">
-          <div class="takenBranch">&check; Branch 1 taken 3 times.</div>
-          <div class="takenBranch">&check; Branch 2 taken 2 times.</div>
+          <div class="takenBranch">&check; Branch 1 taken 5 times.</div>
+          <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 3 times.</div>
+          <div class="takenBranch">&check; Branch 4 taken 2 times.</div>
         </div>
         </details>
       </td>
@@ -798,7 +817,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">5</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;MultiGateReorderRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;MultiGateReorderRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l51" href="#l51">51</a></td>
@@ -816,7 +835,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">3</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">MultiGateReorderRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">MultiGateReorderRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l52" href="#l52">52</a></td>
@@ -832,16 +851,18 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">6</td>
-      <td class="src coveredLine"><span class="w">          </span><span class="n">MultiGateReorderRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">          </span><span class="n">MultiGateReorderRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l53" href="#l53">53</a></td>
       <td class="linebranch">
         <details class="linebranchDetails">
-        <summary class="linebranchSummary">1/2</summary>
+        <summary class="linebranchSummary">2/4</summary>
         <div class="linebranchContents">
           <div class="takenBranch">&check; Branch 1 taken 2 times.</div>
           <div class="notTakenBranch">&cross; Branch 2 not taken.</div>
+          <div class="takenBranch">&check; Branch 3 taken 2 times.</div>
+          <div class="notTakenBranch">&cross; Branch 4 not taken.</div>
         </div>
         </details>
       </td>
@@ -855,7 +876,7 @@
         </details>
       </td>
       <td class="linecount coveredLine">2</td>
-      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;BoxDecompositionRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">name</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;BoxDecompositionRoutingMethod&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l54" href="#l54">54</a></td>
@@ -873,7 +894,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">2</td>
-      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">BoxDecompositionRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">      </span><span class="n">rmp_v</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">make_shared</span><span class="o">&lt;</span><span class="n">BoxDecompositionRoutingMethod</span><span class="o">&gt;</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l55" href="#l55">55</a></td>
@@ -889,7 +910,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">4</td>
-      <td class="src coveredLine"><span class="w">          </span><span class="n">BoxDecompositionRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">          </span><span class="n">BoxDecompositionRoutingMethod</span><span class="o">::</span><span class="n">deserialize</span><span class="p">(</span><span class="n">c</span><span class="p">)));</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l56" href="#l56">56</a></td>
@@ -898,7 +919,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"></span></td>
+      <td class="src "><span class="w">    </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l57" href="#l57">57</a></td>
@@ -907,7 +928,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount uncoveredLine">&cross;</td>
-      <td class="src uncoveredLine"><span class="w">      </span><span class="n">std</span><span class="o">::</span><span class="n">logic_error</span><span class="p">(</span><span class="w"></span></td>
+      <td class="src uncoveredLine"><span class="w">      </span><span class="n">std</span><span class="o">::</span><span class="n">logic_error</span><span class="p">(</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l58" href="#l58">58</a></td>
@@ -916,7 +937,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="w">          </span><span class="s">&quot;Deserialization for given RoutingMethod not supported.&quot;</span><span class="p">);</span><span class="w"></span></td>
+      <td class="src "><span class="w">          </span><span class="s">&quot;Deserialization for given RoutingMethod not supported.&quot;</span><span class="p">);</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l59" href="#l59">59</a></td>
@@ -925,7 +946,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount "></td>
-      <td class="src "><span class="w">    </span><span class="p">}</span><span class="w"></span></td>
+      <td class="src "><span class="w">    </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l60" href="#l60">60</a></td>
@@ -934,7 +955,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">17</td>
-      <td class="src coveredLine"><span class="w">  </span><span class="p">}</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="w">  </span><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l61" href="#l61">61</a></td>
@@ -943,7 +964,7 @@
       <td class="linedecision">
       </td>
       <td class="linecount coveredLine">8</td>
-      <td class="src coveredLine"><span class="p">}</span><span class="w"></span></td>
+      <td class="src coveredLine"><span class="p">}</span></td>
     </tr>
     <tr class="source-line">
       <td class="lineno"><a id="l62" href="#l62">62</a></td>
