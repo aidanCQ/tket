@@ -1,5 +1,8 @@
 name: valgrind check
 on:
+  push:
+    branches:
+      - test-valgrind
   pull_request:
     branches:
       - main
