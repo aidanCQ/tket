@@ -71,8 +71,16 @@ jobs:
         sudo apt install texlive texlive-latex-extra latexmk
         mkdir -p ~/texmf/tex/latex
         wget http://mirrors.ctan.org/graphics/pgf/contrib/quantikz/tikzlibraryquantikz.code.tex -P ~/texmf/tex/latex
-    - name: Run tests under valgrind
+    - name: Run tests under valgrind (long)
+      if: ${{ github.event_name }} == 'schedule'
       run: |
         PKGPATH=`./rootpath tket.json tket`
         # realloc of size 0 used (intentionally?) in eigen
-        cd ${PKGPATH}/bin && valgrind --error-exitcode=1 --show-realloc-size-zero=no ./test-tket `${GITHUB_WORKSPACE}/.github/workflows/test-args ${{ matrix.os }} ${{ github.event_name }}`
+        cd ${PKGPATH}/bin && valgrind --error-exitcode=1 --show-realloc-size-zero=no ./test-tket [long],~[long]
+    - name: Run tests under valgrind (basic)
+      if: ${{ github.event_name }} != 'schedule'
+      run: |
+        PKGPATH=`./rootpath tket.json tket`
+        # realloc of size 0 used (intentionally?) in eigen
+        cd ${PKGPATH}/bin && valgrind --error-exitcode=1 --show-realloc-size-zero=no ./test-tket
+
