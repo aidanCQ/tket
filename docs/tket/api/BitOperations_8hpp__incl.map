@@ -1,6 +1,9 @@
 <map id="src/Circuit/Simulation/BitOperations.hpp" name="src/Circuit/Simulation/BitOperations.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="46,5,207,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,95,157,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="181,95,243,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="46,5,207,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,72,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,48,64,86,60,82,104,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,93,157,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,46,129,79,124,79,124,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="181,93,243,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,44,191,82,187,86,146,48"/>
 </map>

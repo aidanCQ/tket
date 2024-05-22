@@ -1,6 +1,9 @@
 <map id="include/tket/Utils/CosSinDecomposition.hpp" name="include/tket/Utils/CosSinDecomposition.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="306,5,502,47"/>
-<area shape="rect" id="node2" href="$AssertionSynthesis_8cpp.html" title=" " alt="" coords="5,95,248,121"/>
-<area shape="rect" id="node3" href="$ThreeQubitConversion_8cpp.html" title=" " alt="" coords="273,95,535,121"/>
-<area shape="rect" id="node4" href="$CosSinDecomposition_8cpp.html" title=" " alt="" coords="560,95,808,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="306,5,502,45"/>
+<area shape="rect" id="Node000002" href="$AssertionSynthesis_8cpp.html" title=" " alt="" coords="5,93,248,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,52,168,96,166,91,323,47"/>
+<area shape="rect" id="Node000003" href="$ThreeQubitConversion_8cpp.html" title=" " alt="" coords="273,93,535,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="407,59,407,93,401,93,401,59"/>
+<area shape="rect" id="Node000004" href="$CosSinDecomposition_8cpp.html" title=" " alt="" coords="560,93,808,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="485,46,644,91,642,96,483,52"/>
 </map>

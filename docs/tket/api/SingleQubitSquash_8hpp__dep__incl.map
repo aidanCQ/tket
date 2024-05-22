@@ -1,13 +1,26 @@
 <map id="include/tket/Transformations/SingleQubitSquash.hpp" name="include/tket/Transformations/SingleQubitSquash.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="256,5,463,47"/>
-<area shape="rect" id="node2" href="$SingleQubitSquash_8cpp.html" title=" " alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node3" href="$StandardSquash_8cpp.html" title=" " alt="" coords="144,184,303,225"/>
-<area shape="rect" id="node4" href="$PhasedXFrontier_8hpp.html" title=" " alt="" coords="487,95,693,136"/>
-<area shape="rect" id="node7" href="$PQPSquash_8hpp.html" title=" " alt="" coords="745,95,952,136"/>
-<area shape="rect" id="node11" href="$StandardSquash_8hpp.html" title=" " alt="" coords="256,95,463,136"/>
-<area shape="rect" id="node5" href="$Decomposition_8cpp.html" title=" " alt="" coords="513,184,664,225"/>
-<area shape="rect" id="node6" href="$PhasedXFrontier_8cpp.html" title=" " alt="" coords="329,184,488,225"/>
-<area shape="rect" id="node8" href="$PQPSquash_8cpp.html" title=" " alt="" coords="688,184,839,225"/>
-<area shape="rect" id="node9" href="$RzPhasedXSquash_8cpp.html" title=" " alt="" coords="861,273,1033,315"/>
-<area shape="rect" id="node10" href="$RzPhasedXSquash_8hpp.html" title=" " alt="" coords="915,184,1121,225"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="664,5,871,45"/>
+<area shape="rect" id="Node000002" href="$PQPSquash_8hpp.html" title=" " alt="" coords="180,93,387,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="651,50,387,96,387,91,650,45"/>
+<area shape="rect" id="Node000006" href="$PhasedXFrontier_8hpp.html" title=" " alt="" coords="433,93,640,133"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="705,53,588,96,586,91,703,48"/>
+<area shape="rect" id="Node000009" href="$StandardSquash_8hpp.html" title=" " alt="" coords="664,93,871,133"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="770,59,770,93,765,93,765,59"/>
+<area shape="rect" id="Node000010" href="$StandardSquash_8cpp.html" title=" " alt="" coords="828,181,987,221"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="834,50,862,68,885,92,898,114,905,138,910,181,905,181,900,139,893,116,881,95,858,72,831,54"/>
+<area shape="rect" id="Node000011" href="$SingleQubitSquash_8cpp.html" title=" " alt="" coords="947,93,1121,133"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="840,47,976,91,975,96,838,52"/>
+<area shape="rect" id="Node000003" href="$RzPhasedXSquash_8hpp.html" title=" " alt="" coords="5,181,212,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="234,142,148,184,146,179,232,137"/>
+<area shape="rect" id="Node000004" href="$RzPhasedXSquash_8cpp.html" title=" " alt="" coords="93,269,265,309"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="269,147,226,223,195,270,190,268,221,220,264,144"/>
+<area shape="rect" id="Node000005" href="$PQPSquash_8cpp.html" title=" " alt="" coords="288,181,439,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="312,142,348,179,344,183,308,145"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,230,166,267,162,271,131,234"/>
+<area shape="rect" id="Node000007" href="$Decomposition_8cpp.html" title=" " alt="" coords="463,181,613,221"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="540,147,540,181,535,181,535,147"/>
+<area shape="rect" id="Node000008" href="$PhasedXFrontier_8cpp.html" title=" " alt="" coords="643,181,801,221"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="591,137,683,179,680,184,589,142"/>
+<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="753,147,734,182,730,180,749,144"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="811,138,878,179,875,184,808,143"/>
 </map>

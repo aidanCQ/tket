@@ -1,14 +1,30 @@
 <map id="include/tket/OpType/OpDesc.hpp" name="include/tket/OpType/OpDesc.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="33,5,184,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="80,319,155,345"/>
-<area shape="rect" id="node3" title=" " alt="" coords="22,169,80,196"/>
-<area shape="rect" id="node4" href="$OpType_8hpp.html" title=" " alt="" coords="366,169,464,196"/>
-<area shape="rect" id="node9" href="$OpTypeInfo_8hpp.html" title=" " alt="" coords="111,95,234,121"/>
-<area shape="rect" id="node5" href="$Json_8hpp.html" title=" " alt="" coords="317,244,457,271"/>
-<area shape="rect" id="node6" title=" " alt="" coords="485,319,564,345"/>
-<area shape="rect" id="node7" title=" " alt="" coords="202,319,289,345"/>
-<area shape="rect" id="node8" title=" " alt="" coords="314,319,460,345"/>
-<area shape="rect" id="node10" title=" " alt="" coords="155,169,206,196"/>
-<area shape="rect" id="node11" href="$EdgeType_8hpp.html" title=" " alt="" coords="230,169,342,196"/>
-<area shape="rect" id="node12" title=" " alt="" coords="230,244,293,271"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="33,5,184,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="80,313,155,339"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,48,56,75,28,110,17,129,10,150,8,170,12,191,28,224,50,255,95,302,91,306,46,258,24,227,7,193,3,171,5,149,12,127,23,107,52,71,82,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="22,167,80,192"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,47,63,155,58,153,99,45"/>
+<area shape="rect" id="Node000004" href="$OpType_8hpp.html" title=" " alt="" coords="366,167,464,192"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,43,247,91,381,158,379,163,245,96,146,48"/>
+<area shape="rect" id="Node000009" href="$OpTypeInfo_8hpp.html" title=" " alt="" coords="111,93,234,119"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="126,44,156,81,152,84,122,47"/>
+<area shape="rect" id="Node000005" href="$Json_8hpp.html" title=" " alt="" coords="317,240,457,265"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="413,193,399,228,394,226,408,191"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="344,268,169,314,168,309,343,263"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="485,313,564,339"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="410,263,491,305,489,309,408,268"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="202,313,289,339"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="366,268,282,309,280,305,363,263"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="314,313,460,339"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="390,266,390,300,384,300,384,266"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="168,120,146,168,129,239,122,300,117,300,124,238,141,166,163,118"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="154,121,84,162,81,157,152,116"/>
+<area shape="poly" id="edge16_Node000009_Node000004" title=" " alt="" coords="212,116,364,160,362,165,211,121"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="155,167,206,192"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="176,119,180,153,175,153,171,119"/>
+<area shape="rect" id="Node000011" href="$EdgeType_8hpp.html" title=" " alt="" coords="230,167,342,192"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="192,116,257,157,254,162,189,121"/>
+<area shape="poly" id="edge15_Node000011_Node000005" title=" " alt="" coords="304,190,361,230,358,234,301,194"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="230,240,293,265"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="284,193,273,228,268,226,279,191"/>
 </map>

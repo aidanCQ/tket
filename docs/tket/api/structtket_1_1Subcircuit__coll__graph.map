@@ -1,5 +1,7 @@
 <map id="tket::Subcircuit" name="tket::Subcircuit">
-<area shape="rect" id="node1" title="Structure to describe a convex region of the interaction graph." alt="" coords="108,168,227,195"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,13,159,39"/>
-<area shape="rect" id="node3" title=" " alt="" coords="183,5,325,47"/>
+<area shape="rect" id="Node000001" title="Structure to describe a convex region of the interaction graph." alt="" coords="108,167,227,192"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,13,159,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,49,163,165,159,168,93,51"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,5,325,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="255,59,247,102,239,124,227,144,213,158,197,169,194,164,209,154,223,141,234,122,242,100,250,58"/>
 </map>

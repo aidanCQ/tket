@@ -1,9 +1,7 @@
 <map id="tket::graphs::DirectedGraph&lt; T &gt;" name="tket::graphs::DirectedGraph&lt; T &gt;">
-<area shape="rect" id="node1" title="DirectedGraph instances are loop&#45;free directed graphs." alt="" coords="15,169,253,196"/>
-<area shape="rect" id="node4" href="$classtket_1_1ArchitectureBase.html" title=" " alt="" coords="43,244,225,300"/>
-<area shape="rect" id="node2" href="$classtket_1_1graphs_1_1DirectedGraphBase.html" title=" " alt="" coords="33,80,235,121"/>
-<area shape="rect" id="node3" href="$classtket_1_1graphs_1_1AbstractGraph.html" title="Abstract class for representing graphs." alt="" coords="15,5,253,32"/>
-<area shape="rect" id="node5" href="$classtket_1_1Architecture.html" title=" " alt="" coords="67,348,201,375"/>
-<area shape="rect" id="node6" href="$classtket_1_1RingArch.html" title=" " alt="" coords="5,423,119,449"/>
-<area shape="rect" id="node7" href="$classtket_1_1SquareGrid.html" title=" " alt="" coords="143,423,269,449"/>
+<area shape="rect" id="Node000001" title="DirectedGraph instances are loop&#45;free directed graphs." alt="" coords="5,167,244,192"/>
+<area shape="rect" id="Node000002" href="$classtket_1_1graphs_1_1DirectedGraphBase.html" title=" " alt="" coords="24,79,225,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,132,127,166,122,166,122,132"/>
+<area shape="rect" id="Node000003" href="$classtket_1_1graphs_1_1AbstractGraph.html" title="Abstract class for representing graphs." alt="" coords="5,5,244,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,44,127,79,122,79,122,44"/>
 </map>
