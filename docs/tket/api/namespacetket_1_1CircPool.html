@@ -322,6 +322,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aec9a97a52844a72342335114c763882b" id="r_aec9a97a52844a72342335114c763882b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#aec9a97a52844a72342335114c763882b">TK2_using_TK2_or_swap</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
 <tr class="memdesc:aec9a97a52844a72342335114c763882b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Either returns TK2(α, β, γ), or a wire swap and single qubit corrections.  <br /></td></tr>
 <tr class="separator:aec9a97a52844a72342335114c763882b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234b86a1292c9c268a1763e4a292061e" id="r_a234b86a1292c9c268a1763e4a292061e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a234b86a1292c9c268a1763e4a292061e">TK2_using_TK2</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:a234b86a1292c9c268a1763e4a292061e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Just a TK2(α, β, γ) gate.  <br /></td></tr>
+<tr class="separator:a234b86a1292c9c268a1763e4a292061e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c0df7bfe6110404d29a389ed93b5d58" id="r_a4c0df7bfe6110404d29a389ed93b5d58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a4c0df7bfe6110404d29a389ed93b5d58">TK2_using_ZZMax</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
 <tr class="memdesc:a4c0df7bfe6110404d29a389ed93b5d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK2(α, β, γ), using up to 3 ZZMax gates.  <br /></td></tr>
 <tr class="separator:a4c0df7bfe6110404d29a389ed93b5d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -365,13 +368,26 @@ Functions</h2></td></tr>
 <tr class="memdesc:aa15065db27caec06c8e6c68e7a1293b4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespacetket.html#a13e81344da4794f2648eb9a7b286fcf3a605943552629c6e31b20ee3733694927">TK2(a, b, c)</a>-equivalent circuit, using normalised TK2 and single-qb gates.  <br /></td></tr>
 <tr class="separator:aa15065db27caec06c8e6c68e7a1293b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a3ee2a0d3a676ebd094ea34f56d0bd3" id="r_a2a3ee2a0d3a676ebd094ea34f56d0bd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a2a3ee2a0d3a676ebd094ea34f56d0bd3">tk1_to_rzsx</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:a2a3ee2a0d3a676ebd094ea34f56d0bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK1, using Rz and SX gates.  <br /></td></tr>
 <tr class="separator:a2a3ee2a0d3a676ebd094ea34f56d0bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa7e740fc7faa90df6be5307b8e2077" id="r_a5fa7e740fc7faa90df6be5307b8e2077"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a5fa7e740fc7faa90df6be5307b8e2077">tk1_to_rzxsx</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:a5fa7e740fc7faa90df6be5307b8e2077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK1, using Rz, X and SX gates.  <br /></td></tr>
+<tr class="separator:a5fa7e740fc7faa90df6be5307b8e2077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa197879e24b1ebb7311d38d83a0df8d6" id="r_aa197879e24b1ebb7311d38d83a0df8d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#aa197879e24b1ebb7311d38d83a0df8d6">tk1_to_rzh</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:aa197879e24b1ebb7311d38d83a0df8d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK1, using Rz and H gates.  <br /></td></tr>
 <tr class="separator:aa197879e24b1ebb7311d38d83a0df8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76d7935c222bf43882deb5a9c181241a" id="r_a76d7935c222bf43882deb5a9c181241a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a76d7935c222bf43882deb5a9c181241a">tk1_to_tk1</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:a76d7935c222bf43882deb5a9c181241a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Just a TK1(α, β, γ) gate.  <br /></td></tr>
 <tr class="separator:a76d7935c222bf43882deb5a9c181241a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5976d2f554ad68bb1241d55c704ed0c6" id="r_a5976d2f554ad68bb1241d55c704ed0c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a5976d2f554ad68bb1241d55c704ed0c6">tk1_to_rzrx</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:a5976d2f554ad68bb1241d55c704ed0c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK1, using Rz and Rx gates.  <br /></td></tr>
 <tr class="separator:a5976d2f554ad68bb1241d55c704ed0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1491933f9f753c8b37a3c65e2ca3c875" id="r_a1491933f9f753c8b37a3c65e2ca3c875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a1491933f9f753c8b37a3c65e2ca3c875">tk1_to_rxry</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:a1491933f9f753c8b37a3c65e2ca3c875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK1, using Rx and Ry gates.  <br /></td></tr>
+<tr class="separator:a1491933f9f753c8b37a3c65e2ca3c875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa746d1a463d66202c524e32596090683" id="r_aa746d1a463d66202c524e32596090683"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#aa746d1a463d66202c524e32596090683">tk1_to_u3</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
+<tr class="memdesc:aa746d1a463d66202c524e32596090683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to TK1, using a U3 gate.  <br /></td></tr>
+<tr class="separator:aa746d1a463d66202c524e32596090683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9422ec2cb517c0f8e5a048d40fec1515" id="r_a9422ec2cb517c0f8e5a048d40fec1515"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a9422ec2cb517c0f8e5a048d40fec1515">tk1_to_PhasedXRz</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;alpha, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;beta, const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;gamma)</td></tr>
 <tr class="separator:a9422ec2cb517c0f8e5a048d40fec1515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24d9bf37d55a88ec032c6f5cd9ff8971" id="r_a24d9bf37d55a88ec032c6f5cd9ff8971"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket_1_1CircPool.html#a24d9bf37d55a88ec032c6f5cd9ff8971">Rx_using_GPI</a> (const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;theta)</td></tr>
@@ -480,7 +496,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to AAMS, using CX, Rz and U3 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01222">1222</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01228">1228</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -518,7 +534,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to AAMS, using a TK2 and Rz gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01212">1212</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01218">1218</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -1898,7 +1914,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to ESWAP, using CX, X, S, Ry and U1 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01144">1144</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01150">1150</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -1920,7 +1936,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to ESWAP, using a TK2 and (Clifford) TK1 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01132">1132</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01138">1138</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -1952,7 +1968,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to FSim, using CX, X, S, U1 and U3 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01172">1172</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01178">1178</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -1984,7 +2000,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to FSim, using a TK2 and TK1 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01161">1161</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01167">1167</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2273,7 +2289,7 @@ Functions</h2></td></tr>
 
 <p>Unwrap NPhasedX, into number_of_qubits PhasedX gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01234">1234</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01240">1240</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2305,7 +2321,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to PhasedISWAP, using CX, U3 and Rz gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01199">1199</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01205">1205</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2337,7 +2353,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to PhasedISWAP, using a TK2 and Rz gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01189">1189</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01195">1195</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2359,7 +2375,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to Rx, using GPI and GPI2 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01394">1394</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01446">1446</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2381,7 +2397,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to Ry, using GPI and GPI2 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01403">1403</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01455">1455</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2403,7 +2419,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to Rz, using GPI gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01412">1412</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01464">1464</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2481,7 +2497,45 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01378">1378</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01430">1430</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1491933f9f753c8b37a3c65e2ca3c875" name="a1491933f9f753c8b37a3c65e2ca3c875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1491933f9f753c8b37a3c65e2ca3c875">&#9670;&#160;</a></span>tk1_to_rxry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtket_1_1Circuit.html">Circuit</a> tket::CircPool::tk1_to_rxry </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>gamma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Equivalent to TK1, using Rx and Ry gates. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01413">1413</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2517,7 +2571,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01321">1321</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p>Equivalent to TK1, using Rz and H gates. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01356">1356</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2553,7 +2609,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01370">1370</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p>Equivalent to TK1, using Rz and Rx gates. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01405">1405</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2589,7 +2647,47 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01262">1262</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p>Equivalent to TK1, using Rz and SX gates. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01348">1348</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5fa7e740fc7faa90df6be5307b8e2077" name="a5fa7e740fc7faa90df6be5307b8e2077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa7e740fc7faa90df6be5307b8e2077">&#9670;&#160;</a></span>tk1_to_rzxsx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtket_1_1Circuit.html">Circuit</a> tket::CircPool::tk1_to_rzxsx </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>gamma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Equivalent to TK1, using Rz, X and SX gates. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01352">1352</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2625,7 +2723,47 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01364">1364</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p>Just a TK1(α, β, γ) gate. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01399">1399</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa746d1a463d66202c524e32596090683" name="aa746d1a463d66202c524e32596090683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa746d1a463d66202c524e32596090683">&#9670;&#160;</a></span>tk1_to_u3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtket_1_1Circuit.html">Circuit</a> tket::CircPool::tk1_to_u3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>gamma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Equivalent to TK1, using a U3 gate. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01423">1423</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2663,7 +2801,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to TK1, using GPI and GPI2 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01443">1443</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01495">1495</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2741,7 +2879,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to TK2, using AAMS, GPI and GPI2 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01454">1454</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01506">1506</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2859,7 +2997,45 @@ Functions</h2></td></tr>
 
 <p><a class="el" href="namespacetket.html#a13e81344da4794f2648eb9a7b286fcf3a605943552629c6e31b20ee3733694927">TK2(a, b, c)</a>-equivalent circuit, using normalised TK2 and single-qb gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01243">1243</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01249">1249</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a234b86a1292c9c268a1763e4a292061e" name="a234b86a1292c9c268a1763e4a292061e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a234b86a1292c9c268a1763e4a292061e">&#9670;&#160;</a></span>TK2_using_TK2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtket_1_1Circuit.html">Circuit</a> tket::CircPool::TK2_using_TK2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>alpha</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>beta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacetket.html#a6817cd1c8a5630b406c86a59173edd21">Expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>gamma</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Just a TK2(α, β, γ) gate. </p>
+
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01077">1077</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2937,7 +3113,7 @@ Functions</h2></td></tr>
 <p>Equivalent to TK2(α, β, γ), using up to 3 ZZMax gates. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtket_1_1Circuit.html" title="A circuit.">Circuit</a> equivalent to TK2(α, β, γ). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01077">1077</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01083">1083</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -2976,7 +3152,7 @@ Functions</h2></td></tr>
 <p>Equivalent to TK2(α, β, γ), up to a wire swap that is encoded in the implicit qubit permutation of the <a class="el" href="classtket_1_1Circuit.html" title="A circuit.">Circuit</a>, using up to 3 ZZMax gates. </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtket_1_1Circuit.html" title="A circuit.">Circuit</a> equivalent to TK2(α, β, γ) up to a wire swap. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01094">1094</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01100">1100</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -3121,7 +3297,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to 3-qubit MS interaction, using CX and U3 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01123">1123</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01129">1129</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -3143,7 +3319,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to XXPhase3, using three TK2 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01115">1115</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01121">1121</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -3165,7 +3341,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to XXPhase, using AAMS gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01419">1419</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01471">1471</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -3260,7 +3436,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to YYPhase, using AAMS gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01425">1425</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01477">1477</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
@@ -3397,7 +3573,7 @@ Functions</h2></td></tr>
 
 <p>Equivalent to ZZPhase, using AAMS, GPI and GPI2 gates. </p>
 
-<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01431">1431</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CircPool_8cpp_source.html#l01483">1483</a> of file <a class="el" href="CircPool_8cpp_source.html">CircPool.cpp</a>.</p>
 
 </div>
 </div>
