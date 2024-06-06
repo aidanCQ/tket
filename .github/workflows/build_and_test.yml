@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - main
+      - ae/test-zx312
   schedule:
     # 03:00 every Saturday morning
     - cron: '0 3 * * 6'
@@ -275,7 +276,7 @@ jobs:
       if: github.event_name == 'push'
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: '3.12'
     - name: Set up Python (schedule)
       if: github.event_name == 'schedule'
       uses: actions/setup-python@v5
