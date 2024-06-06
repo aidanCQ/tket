@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage for /home/runner/work/tket/tket/pytket/pytket/circuit/decompose_classical.py: 94%</title>
+    <title>Coverage for /home/runner/work/tket/tket/pytket/pytket/circuit/decompose_classical.py: 93%</title>
     <link rel="icon" sizes="32x32" href="favicon_32_cb_58284776.png">
     <link rel="stylesheet" href="style_cb_8e611ae1.css" type="text/css">
     <script src="coverage_html_cb_6fb7b396.js" defer></script>
@@ -12,7 +12,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>/home/runner/work/tket/tket/pytket/pytket/circuit/decompose_classical.py</b>:
-            <span class="pc_cov">94%</span>
+            <span class="pc_cov">93%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -67,7 +67,7 @@
             <a id="nextFileLink" class="nav" href="z_8b8094033459c4ef___init___py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.5.3">coverage.py v7.5.3</a>,
-            created at 2024-06-05 10:16 +0000
+            created at 2024-06-06 07:36 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"></button>
@@ -216,7 +216,7 @@
     <p class="pln"><span class="n"><a id="t132" href="#t132">132</a></span><span class="t"><span class="str">        Optionally set size of created register."""</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t133" href="#t133">133</a></span><span class="t">        <span class="key">if</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_heap</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t134" href="#t134">134</a></span><span class="t">            <span class="key">return</span> <span class="nam">self</span><span class="op">.</span><span class="nam">pop</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t135" href="#t135">135</a></span><span class="t">        <span class="nam">new_reg</span> <span class="op">=</span> <span class="nam">BitRegister</span><span class="op">(</span><span class="str">f"{self._reg_name_base}_{self.next_index}"</span><span class="op">,</span> <span class="nam">size</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t135" href="#t135">135</a></span><span class="t">        <span class="nam">new_reg</span> <span class="op">=</span> <span class="nam">BitRegister</span><span class="op">(</span><span class="fst">f"</span><span class="op">{</span><span class="nam">self</span><span class="op">.</span><span class="nam">_reg_name_base</span><span class="op">}</span><span class="fst">_</span><span class="op">{</span><span class="nam">self</span><span class="op">.</span><span class="nam">next_index</span><span class="op">}</span><span class="fst">"</span><span class="op">,</span> <span class="nam">size</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t136" href="#t136">136</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">_heap_vars</span><span class="op">.</span><span class="nam">add</span><span class="op">(</span><span class="nam">new_reg</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t137" href="#t137">137</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t138" href="#t138">138</a></span><span class="t">        <span class="key">return</span> <span class="nam">new_reg</span>&nbsp;</span><span class="r"></span></p>
@@ -236,7 +236,7 @@
     <p class="pln"><span class="n"><a id="t152" href="#t152">152</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t153" href="#t153">153</a></span><span class="t"><span class="key">def</span> <span class="nam">int_to_bools</span><span class="op">(</span><span class="nam">val</span><span class="op">:</span> <span class="nam">Constant</span><span class="op">,</span> <span class="nam">width</span><span class="op">:</span> <span class="nam">int</span><span class="op">)</span> <span class="op">-></span> <span class="nam">List</span><span class="op">[</span><span class="nam">bool</span><span class="op">]</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t154" href="#t154">154</a></span><span class="t">    <span class="com"># map int to bools via litle endian encoding</span>&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t155" href="#t155">155</a></span><span class="t">    <span class="key">return</span> <span class="nam">list</span><span class="op">(</span><span class="nam">map</span><span class="op">(</span><span class="nam">bool</span><span class="op">,</span> <span class="nam">map</span><span class="op">(</span><span class="nam">int</span><span class="op">,</span> <span class="nam">reversed</span><span class="op">(</span><span class="str">f"{val:0{width}b}"</span><span class="op">[</span><span class="op">-</span><span class="nam">width</span><span class="op">:</span><span class="op">]</span><span class="op">)</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t155" href="#t155">155</a></span><span class="t">    <span class="key">return</span> <span class="nam">list</span><span class="op">(</span><span class="nam">map</span><span class="op">(</span><span class="nam">bool</span><span class="op">,</span> <span class="nam">map</span><span class="op">(</span><span class="nam">int</span><span class="op">,</span> <span class="nam">reversed</span><span class="op">(</span><span class="fst">f"</span><span class="op">{</span><span class="nam">val</span><span class="op">:</span><span class="fst">0</span><span class="op">{</span><span class="nam">width</span><span class="op">}</span><span class="fst">b</span><span class="op">}</span><span class="fst">"</span><span class="op">[</span><span class="op">-</span><span class="nam">width</span><span class="op">:</span><span class="op">]</span><span class="op">)</span><span class="op">)</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t156" href="#t156">156</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t157" href="#t157">157</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t158" href="#t158">158</a></span><span class="t"><span class="key">def</span> <span class="nam">_gen_walk</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
@@ -317,7 +317,7 @@
     <p class="run"><span class="n"><a id="t233" href="#t233">233</a></span><span class="t">            <span class="nam">_method_map</span><span class="op">[</span><span class="nam">exp</span><span class="op">.</span><span class="nam">op</span><span class="op">]</span><span class="op">(</span><span class="nam">arg1</span><span class="op">,</span> <span class="nam">arg2</span><span class="op">,</span> <span class="nam">targ_bit</span><span class="op">,</span> <span class="op">**</span><span class="nam">kwargs</span><span class="op">)</span>  <span class="com"># type: ignore</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t234" href="#t234">234</a></span><span class="t">        <span class="key">except</span> <span class="nam">KeyError</span> <span class="key">as</span> <span class="nam">e</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t235" href="#t235">235</a></span><span class="t">            <span class="key">raise</span> <span class="nam">DecomposeClassicalError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
-    <p class="pln"><span class="n"><a id="t236" href="#t236">236</a></span><span class="t">                <span class="str">f"{exp.op} cannot be decomposed to TKET primitives."</span>&nbsp;</span><span class="r"></span></p>
+    <p class="pln"><span class="n"><a id="t236" href="#t236">236</a></span><span class="t">                <span class="fst">f"</span><span class="op">{</span><span class="nam">exp</span><span class="op">.</span><span class="nam">op</span><span class="op">}</span><span class="fst"> cannot be decomposed to TKET primitives.</span><span class="fst">"</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t237" href="#t237">237</a></span><span class="t">                <span class="str">" If targetting extended QASM you may not need to decompose."</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t238" href="#t238">238</a></span><span class="t">            <span class="op">)</span> <span class="key">from</span> <span class="nam">e</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t239" href="#t239">239</a></span><span class="t">        <span class="key">return</span> <span class="nam">targ_bit</span>  <span class="com"># type: ignore</span>&nbsp;</span><span class="r"></span></p>
@@ -443,7 +443,7 @@
             <a class="nav" href="z_8b8094033459c4ef___init___py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.5.3">coverage.py v7.5.3</a>,
-            created at 2024-06-05 10:16 +0000
+            created at 2024-06-06 07:36 +0000
         </p>
     </div>
 </footer>
