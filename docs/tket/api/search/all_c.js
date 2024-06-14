@@ -43,6 +43,6 @@ var searchData=
   ['localcliffordtype_40',['LocalCliffordType',['../namespacetket_1_1Transforms_1_1GreedyPauliSimp.html#aadc8dc8efb76ea909cb9d142bf5e8384',1,'tket::Transforms::GreedyPauliSimp']]],
   ['longest_5fpath_41',['longest_path',['../classtket_1_1graphs_1_1detail_1_1TreeSearchBase.html#a9ed7165ecadb93f554e0c916c12ac5c5',1,'tket::graphs::detail::TreeSearchBase']]],
   ['longest_5fsimple_5fpath_42',['longest_simple_path',['../namespacetket_1_1graphs.html#a8ae9cd05ebe011dbd26ffffcf1d83d82',1,'tket::graphs']]],
-  ['lower_43',['lower',['../classtket_1_1RangePredicateOp.html#a24712ae15c61fb0b3dc72e9142df1b74',1,'tket::RangePredicateOp']]],
+  ['lower_43',['lower',['../classtket_1_1RangePredicateOp.html#a67ed2d719ad074b2ee3107d5a813b0ba',1,'tket::RangePredicateOp']]],
   ['lt_5fwith_5fkey_44',['lt_with_key',['../namespacetket_1_1graphs_1_1utils_1_1detail.html#a566344f3f028030be31f3d6784fce02c',1,'tket::graphs::utils::detail']]]
 ];
