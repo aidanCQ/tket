@@ -277,6 +277,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtket_1_1GateSetPredicate.html">GateSetPredicate</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Asserts that all operations are in the specified set of types.  <a href="classtket_1_1GateSetPredicate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtket_1_1GateSpec.html">GateSpec</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtket_1_1GateUnitaryMatrix.html">GateUnitaryMatrix</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions to return the unitary matrix which a gate represents.  <a href="structtket_1_1GateUnitaryMatrix.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -366,6 +368,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtket_1_1MultiplexedU2Box.html">MultiplexedU2Box</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplexed U2 gate.  <a href="classtket_1_1MultiplexedU2Box.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtket_1_1MultiplexedU2Commands.html">MultiplexedU2Commands</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtket_1_1MultiplexorBox.html">MultiplexorBox</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplexed ops.  <a href="classtket_1_1MultiplexorBox.html#details">More...</a><br /></td></tr>
@@ -1247,6 +1251,14 @@ Functions</h2></td></tr>
 <tr class="separator:af3c38597810d8995eb79aaa64f5d28d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e34ddb30dbc05b8b1fb0167e55e0587" id="r_a9e34ddb30dbc05b8b1fb0167e55e0587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtket_1_1Circuit.html">Circuit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#a9e34ddb30dbc05b8b1fb0167e55e0587">operator&gt;&gt;</a> (const <a class="el" href="classtket_1_1Circuit.html">Circuit</a> &amp;ci1, const <a class="el" href="classtket_1_1Circuit.html">Circuit</a> &amp;ci2)</td></tr>
 <tr class="separator:a9e34ddb30dbc05b8b1fb0167e55e0587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89420cd07a7bd91f0d46e1f5c94c53c5" id="r_a89420cd07a7bd91f0d46e1f5c94c53c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#a89420cd07a7bd91f0d46e1f5c94c53c5">add_cx_u1</a> (<a class="el" href="classtket_1_1Circuit.html">Circuit</a> &amp;circ, const std::vector&lt; <a class="el" href="structtket_1_1MultiplexedU2Commands.html">MultiplexedU2Commands</a> &gt; &amp;m_u2_decomps, unsigned n_controls_, unsigned n_targets_)</td></tr>
+<tr class="separator:a89420cd07a7bd91f0d46e1f5c94c53c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab058c5e43e3f6588d296da51b4eb7f6d" id="r_ab058c5e43e3f6588d296da51b4eb7f6d"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespacetket.html#afe3cf754e2a93ccc16abc505e88ec2a6">ctrl_op_map_t</a>, Eigen::VectorXcd &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#ab058c5e43e3f6588d296da51b4eb7f6d">disentangle_final_qubit_from_diagonal</a> (const Eigen::VectorXcd &amp;full_diag, unsigned n_controls_)</td></tr>
+<tr class="separator:ab058c5e43e3f6588d296da51b4eb7f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8490aaaa4d5e9f4674ce843ceb21dbf0" id="r_a8490aaaa4d5e9f4674ce843ceb21dbf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#a8490aaaa4d5e9f4674ce843ceb21dbf0">add_multi_rz</a> (<a class="el" href="classtket_1_1Circuit.html">Circuit</a> &amp;circ, const std::vector&lt; <a class="el" href="namespacetket.html#afe3cf754e2a93ccc16abc505e88ec2a6">ctrl_op_map_t</a> &gt; &amp;all_multiplexed_rz, unsigned n_controls_, unsigned n_targets_)</td></tr>
+<tr class="separator:a8490aaaa4d5e9f4674ce843ceb21dbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88454468978048ca7c068dac57ad18e7" id="r_a88454468978048ca7c068dac57ad18e7"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXcd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#a88454468978048ca7c068dac57ad18e7">combine_diagonals</a> (const std::vector&lt; Eigen::VectorXcd &gt; &amp;all_diags, unsigned n_controls_, unsigned n_targets_)</td></tr>
+<tr class="separator:a88454468978048ca7c068dac57ad18e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5cfd76224bd2a945c23f62bb1ed1fc7" id="r_ab5cfd76224bd2a945c23f62bb1ed1fc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#ab5cfd76224bd2a945c23f62bb1ed1fc7">from_json</a> (const nlohmann::json &amp;j, <a class="el" href="namespacetket.html#a75405147f5ffd3ff1ff1118fba63bcd0">Op_ptr</a> &amp;op)</td></tr>
 <tr class="separator:ab5cfd76224bd2a945c23f62bb1ed1fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e55d19f57753154065f03353e78a0a5" id="r_a7e55d19f57753154065f03353e78a0a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacetket.html#a95a55c13860dc28bd46f6b624ccef716">DensePauliMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetket.html#a7e55d19f57753154065f03353e78a0a5">pad_sparse_pauli_map</a> (const <a class="el" href="namespacetket.html#a5d170f953029bfd42ce8a82ef89fb814">QubitPauliMap</a> &amp;sparse_string, size_t size)</td></tr>
@@ -5621,6 +5633,48 @@ e^{-i\pi\beta} \end{array} \right] \) </p>
 
 </div>
 </div>
+<a id="a89420cd07a7bd91f0d46e1f5c94c53c5" name="a89420cd07a7bd91f0d46e1f5c94c53c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89420cd07a7bd91f0d46e1f5c94c53c5">&#9670;&#160;</a></span>add_cx_u1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tket::add_cx_u1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtket_1_1Circuit.html">Circuit</a> &amp;&#160;</td>
+          <td class="paramname"><em>circ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structtket_1_1MultiplexedU2Commands.html">MultiplexedU2Commands</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>m_u2_decomps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_controls_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_targets_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Multiplexor_8cpp_source.html#l00918">918</a> of file <a class="el" href="Multiplexor_8cpp_source.html">Multiplexor.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a3a0240d1e7ccf9f2730f0ed111f171ca" name="a3a0240d1e7ccf9f2730f0ed111f171ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a0240d1e7ccf9f2730f0ed111f171ca">&#9670;&#160;</a></span>add_latex_for_command()</h2>
 
@@ -5648,6 +5702,48 @@ e^{-i\pi\beta} \end{array} \right] \) </p>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="latex__drawing_8cpp_source.html#l00034">34</a> of file <a class="el" href="latex__drawing_8cpp_source.html">latex_drawing.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a8490aaaa4d5e9f4674ce843ceb21dbf0" name="a8490aaaa4d5e9f4674ce843ceb21dbf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8490aaaa4d5e9f4674ce843ceb21dbf0">&#9670;&#160;</a></span>add_multi_rz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tket::add_multi_rz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtket_1_1Circuit.html">Circuit</a> &amp;&#160;</td>
+          <td class="paramname"><em>circ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="namespacetket.html#afe3cf754e2a93ccc16abc505e88ec2a6">ctrl_op_map_t</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>all_multiplexed_rz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_controls_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_targets_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Multiplexor_8cpp_source.html#l00993">993</a> of file <a class="el" href="Multiplexor_8cpp_source.html">Multiplexor.cpp</a>.</p>
 
 </div>
 </div>
@@ -7874,6 +7970,42 @@ template&lt;typename <a class="el" href="namespacetket.html#a13e81344da4794f2648
 
 </div>
 </div>
+<a id="a88454468978048ca7c068dac57ad18e7" name="a88454468978048ca7c068dac57ad18e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88454468978048ca7c068dac57ad18e7">&#9670;&#160;</a></span>combine_diagonals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::VectorXcd tket::combine_diagonals </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Eigen::VectorXcd &gt; &amp;&#160;</td>
+          <td class="paramname"><em>all_diags</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_controls_</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_targets_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Multiplexor_8cpp_source.html#l01038">1038</a> of file <a class="el" href="Multiplexor_8cpp_source.html">Multiplexor.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a7d419c47d8b399a27b94ad5f510fa84e" name="a7d419c47d8b399a27b94ad5f510fa84e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d419c47d8b399a27b94ad5f510fa84e">&#9670;&#160;</a></span>combine_vectors()</h2>
 
@@ -9661,6 +9793,36 @@ template&lt;&gt; </div>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="PassLibrary_8cpp_source.html#l00334">334</a> of file <a class="el" href="PassLibrary_8cpp_source.html">PassLibrary.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ab058c5e43e3f6588d296da51b4eb7f6d" name="ab058c5e43e3f6588d296da51b4eb7f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab058c5e43e3f6588d296da51b4eb7f6d">&#9670;&#160;</a></span>disentangle_final_qubit_from_diagonal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="namespacetket.html#afe3cf754e2a93ccc16abc505e88ec2a6">ctrl_op_map_t</a>, Eigen::VectorXcd &gt; tket::disentangle_final_qubit_from_diagonal </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::VectorXcd &amp;&#160;</td>
+          <td class="paramname"><em>full_diag</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>n_controls_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Multiplexor_8cpp_source.html#l00962">962</a> of file <a class="el" href="Multiplexor_8cpp_source.html">Multiplexor.cpp</a>.</p>
 
 </div>
 </div>

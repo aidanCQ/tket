@@ -20,5 +20,6 @@ var searchData=
   ['multiplexedrotationbox_17',['MultiplexedRotationBox',['../classtket_1_1MultiplexedRotationBox.html',1,'tket']]],
   ['multiplexedtensoredu2box_18',['MultiplexedTensoredU2Box',['../classtket_1_1MultiplexedTensoredU2Box.html',1,'tket']]],
   ['multiplexedu2box_19',['MultiplexedU2Box',['../classtket_1_1MultiplexedU2Box.html',1,'tket']]],
-  ['multiplexorbox_20',['MultiplexorBox',['../classtket_1_1MultiplexorBox.html',1,'tket']]]
+  ['multiplexedu2commands_20',['MultiplexedU2Commands',['../structtket_1_1MultiplexedU2Commands.html',1,'tket']]],
+  ['multiplexorbox_21',['MultiplexorBox',['../classtket_1_1MultiplexorBox.html',1,'tket']]]
 ];
