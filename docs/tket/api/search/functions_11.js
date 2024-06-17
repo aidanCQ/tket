@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['rangepredicateop_0',['RangePredicateOp',['../classtket_1_1RangePredicateOp.html#a9c29619fde7053a1c161ad151858dd91',1,'tket::RangePredicateOp']]],
+  ['rangepredicateop_0',['RangePredicateOp',['../classtket_1_1RangePredicateOp.html#a18b5ef51d7e35c9ddab21b0ac2c609ef',1,'tket::RangePredicateOp']]],
   ['rank_1',['rank',['../classtket_1_1SymplecticTableau.html#ade134fb083cbbdc20cfd1af6e24ca430',1,'tket::SymplecticTableau']]],
   ['rebase_5fcirq_2',['rebase_cirq',['../namespacetket_1_1Transforms.html#ac6dd9c61017c16afef9744f88a453603',1,'tket::Transforms']]],
   ['rebase_5ffactory_3',['rebase_factory',['../namespacetket_1_1Transforms.html#a1ba677344960523d7af5fd3fd30559a0',1,'tket::Transforms']]],
@@ -77,7 +77,7 @@ var searchData=
   ['repr_74',['repr',['../classtket_1_1UnitID.html#a98378460706cc69edd8aa45500db6a14',1,'tket::UnitID']]],
   ['resourcebounds_75',['resourcebounds',['../structtket_1_1ResourceBounds.html#ac9fbee7a88cf2d0a08c4b906da7e6e7a',1,'tket::ResourceBounds::ResourceBounds()'],['../structtket_1_1ResourceBounds.html#aa89bebe5de037a4268be39de2150cd43',1,'tket::ResourceBounds::ResourceBounds(T val)'],['../structtket_1_1ResourceBounds.html#a0ca808e1ca5cb575e3d8ac17053aac9a',1,'tket::ResourceBounds::ResourceBounds(T minval, T maxval)']]],
   ['respects_5fconnectivity_5fconstraints_76',['respects_connectivity_constraints',['../namespacetket.html#a57d6dd3bedfc60a482c50c8eb4a155af',1,'tket']]],
-  ['reverse_5fbits_77',['reverse_bits',['../namespacetket.html#a9f3b65f02545b866e63e409e06932c53',1,'tket']]],
+  ['reverse_5fbits_77',['reverse_bits',['../namespacetket.html#a1a6f95ad0af21ec94f0f438ca69abf4c',1,'tket']]],
   ['reverse_5findexing_78',['reverse_indexing',['../namespacetket.html#ac750e377a184bf7a76b875691c07892f',1,'tket::reverse_indexing(const Eigen::Matrix4cd &amp;m)'],['../namespacetket.html#a35dcbd88fada095a61a52b20decbcd41',1,'tket::reverse_indexing(const Matrix8cd &amp;m)'],['../namespacetket.html#a241a6b680ec3430817d3beca10178c11',1,'tket::reverse_indexing(const Eigen::MatrixXcd &amp;m)'],['../namespacetket.html#a0fe0ef6db7f0eed227ff46a946de6dc4',1,'tket::reverse_indexing(const Eigen::VectorXcd &amp;v)']]],
   ['rewire_79',['rewire',['../classtket_1_1Circuit.html#abf00d3034dae106bbedcaa13969486aa',1,'tket::Circuit']]],
   ['ringarch_80',['RingArch',['../classtket_1_1RingArch.html#a60294b1d0b46955506cea5b1b0fc8b67',1,'tket::RingArch']]],

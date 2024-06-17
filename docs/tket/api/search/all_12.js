@@ -1,7 +1,7 @@
 var searchData=
 [
   ['rangepredicate_0',['RangePredicate',['../namespacetket.html#a13e81344da4794f2648eb9a7b286fcf3a4dab62adc87d203efeb78923a1a5be0c',1,'tket']]],
-  ['rangepredicateop_1',['rangepredicateop',['../classtket_1_1RangePredicateOp.html',1,'tket::RangePredicateOp'],['../classtket_1_1RangePredicateOp.html#a9c29619fde7053a1c161ad151858dd91',1,'tket::RangePredicateOp::RangePredicateOp()']]],
+  ['rangepredicateop_1',['rangepredicateop',['../classtket_1_1RangePredicateOp.html',1,'tket::RangePredicateOp'],['../classtket_1_1RangePredicateOp.html#a18b5ef51d7e35c9ddab21b0ac2c609ef',1,'tket::RangePredicateOp::RangePredicateOp()']]],
   ['rank_2',['rank',['../classtket_1_1SymplecticTableau.html#ade134fb083cbbdc20cfd1af6e24ca430',1,'tket::SymplecticTableau']]],
   ['readout_5ferror_5ft_3',['readout_error_t',['../namespacetket.html#a97c5aa77894720f0dd93708e11b4185d',1,'tket']]],
   ['reassignable_5fnodes_5f_4',['reassignable_nodes_',['../structtket_1_1MappingFrontier.html#afef06ddcb38a1f37c2ad1ad260c34d8a',1,'tket::MappingFrontier']]],
@@ -103,7 +103,7 @@ var searchData=
   ['resultvec_100',['ResultVec',['../classtket_1_1NeighbourPlacements.html#a711946fa7b446156dc1c40be2fbf9765',1,'tket::NeighbourPlacements']]],
   ['rev0_101',['rev0',['../structtket_1_1InteractionMatch.html#a0e07b6ee9eb01d0de50b073f3a06d7f6',1,'tket::InteractionMatch']]],
   ['rev1_102',['rev1',['../structtket_1_1InteractionMatch.html#a547e42ba22c34909fb525b29f81773a4',1,'tket::InteractionMatch']]],
-  ['reverse_5fbits_103',['reverse_bits',['../namespacetket.html#a9f3b65f02545b866e63e409e06932c53',1,'tket']]],
+  ['reverse_5fbits_103',['reverse_bits',['../namespacetket.html#a1a6f95ad0af21ec94f0f438ca69abf4c',1,'tket']]],
   ['reverse_5findexing_104',['reverse_indexing',['../namespacetket.html#ac750e377a184bf7a76b875691c07892f',1,'tket::reverse_indexing(const Eigen::Matrix4cd &amp;m)'],['../namespacetket.html#a35dcbd88fada095a61a52b20decbcd41',1,'tket::reverse_indexing(const Matrix8cd &amp;m)'],['../namespacetket.html#a241a6b680ec3430817d3beca10178c11',1,'tket::reverse_indexing(const Eigen::MatrixXcd &amp;m)'],['../namespacetket.html#a0fe0ef6db7f0eed227ff46a946de6dc4',1,'tket::reverse_indexing(const Eigen::VectorXcd &amp;v)']]],
   ['reversetype_105',['ReverseType',['../namespacetket.html#a0f814e0f8e98465926bde71420d68cf6',1,'tket']]],
   ['revinteractionpoint_106',['RevInteractionPoint',['../structtket_1_1RevInteractionPoint.html',1,'tket']]],
