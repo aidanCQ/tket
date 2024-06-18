@@ -29,6 +29,6 @@ var searchData=
   ['update_5fcoms_5findices_26',['update_coms_indices',['../classtket_1_1Cycle.html#afa10626ff19c11ee66312098d0be7cb1',1,'tket::Cycle']]],
   ['update_5flinear_5fboundary_5fuids_27',['update_linear_boundary_uids',['../structtket_1_1MappingFrontier.html#ace7bfc5d8de76b69f9a8b8f518af4265',1,'tket::MappingFrontier']]],
   ['update_5fmaps_28',['update_maps',['../namespacetket.html#af6b6d4ca75b55551099c004341092d38',1,'tket']]],
-  ['upper_29',['upper',['../classtket_1_1RangePredicateOp.html#a9946d531c6306e1452fd0ced95054d77',1,'tket::RangePredicateOp']]],
+  ['upper_29',['upper',['../classtket_1_1RangePredicateOp.html#a27f27bf97545722920fd1985ba1ef4a3',1,'tket::RangePredicateOp']]],
   ['userdefinedpredicate_30',['UserDefinedPredicate',['../classtket_1_1UserDefinedPredicate.html#a4a6e9afe0970fa6716e436242954473c',1,'tket::UserDefinedPredicate']]]
 ];
